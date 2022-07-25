@@ -8,7 +8,7 @@ public class JavaFileHandlingOperations {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 
-		File javaFile = new File("D:\\javaFile.txt");
+		File javaFile = new File("D:\\javaFile2.txt");
 		
 		if(javaFile.exists()) {
 			System.out.println("The new file is " + javaFile.getName() + " created Successfully.");
